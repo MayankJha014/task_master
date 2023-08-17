@@ -99,52 +99,6 @@ describes better than words''',
                         ),
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 7.0, horizontal: 15),
-                      child: GestureDetector(
-                        onTap: () {
-                          authService.signWithGitHub(context: context);
-                        },
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(
-                            vertical: 12,
-                            horizontal: 10,
-                          ),
-                          decoration: BoxDecoration(
-                              border: Border.all(),
-                              color: Colors.black,
-                              borderRadius: BorderRadius.circular(10)),
-                          width: double.infinity,
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Image.asset(
-                                'assets/github.png',
-                                width: 25,
-                                height: 25,
-                              ),
-                              Text(
-                                "Sign with GitHub",
-                                style: GoogleFonts.patuaOne(
-                                  fontWeight: FontWeight.normal,
-                                  fontSize: 16,
-                                  letterSpacing: 1,
-                                  color: Colors.white,
-                                ),
-                              ),
-                              const Padding(
-                                padding: EdgeInsets.only(right: 10.0),
-                                child: Icon(
-                                  Icons.arrow_forward_ios_rounded,
-                                  color: Colors.white,
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
                   ],
                 ),
               ),
