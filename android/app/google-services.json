@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "834292277551",
+    "project_id": "task-master-12abf",
+    "storage_bucket": "task-master-12abf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834292277551:android:58e461bea06204e1afc1da",
+        "android_client_info": {
+          "package_name": "com.apiero.task_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834292277551-1s9mc72kd1vapvvo1150sjho08edupp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apiero.task_master",
+            "certificate_hash": "6947f1407d8c4b6e3be9625ea2c11eefde91d156"
+          }
+        },
+        {
+          "client_id": "834292277551-942kchk5ks7eijep3o8ffl0l23i9itkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apiero.task_master",
+            "certificate_hash": "37e439c3d8aaf5c17dde165cd3983cd56333a24c"
+          }
+        },
+        {
+          "client_id": "834292277551-of403qqdf972773n36m7luhl6shdce0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYLJ6DbnjcaJTccLt12uTm5gaOSA9DuPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834292277551-7rb9kvub518ckcn98u5uiunhsjgo2mfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
